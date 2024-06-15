@@ -13,7 +13,7 @@ import { randomInt } from 'crypto';
     await productService.save({
       title: faker.lorem.words(2),
       description: faker.lorem.words(10),
-      image: faker.image.imageUrl(200, 200, '', true),
+      image: faker.image.url({ width: 200, height: 200 }),
       price: randomInt(10, 100),
     });
   }
