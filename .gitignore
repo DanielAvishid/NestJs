@@ -1,0 +1,12 @@
+/node_modules/
+/.build/
+/.serverless/
+/_warmup/
+/dist
+/.dbdata
+.build
+.eslintcache
+graph.json
+
+.env
+yarn-error.log
