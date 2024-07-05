@@ -12,7 +12,7 @@ export class AbstractService {
   }
 
   async findOne(options) {
-    return this.repository.findOneBy(options);
+    return this.repository.findOne(options);
   }
 
   async update(id: number, options) {

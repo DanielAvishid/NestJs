@@ -22,7 +22,7 @@ import { OrderItemService } from '../order/order-item.service';
       complete: true,
     });
 
-    for (let j = 0; j > randomInt(1, 5); j++) {
+    for (let j = 0; j < randomInt(1, 5); j++) {
       await orderItemService.save({
         order,
         product_title: faker.lorem.words(2),
